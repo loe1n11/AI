@@ -1,0 +1,11 @@
+{
+  "app_name": "AI Knowledge Assistant",
+  "version": "2.0",
+  "debug": false,
+  "embedding_model": "text-embedding-3-small",
+  "chat_model": "gpt-3.5-turbo",
+  "max_context_length": 2000,
+  "chunk_size": 500,
+  "chunk_overlap": 50,
+  "database_path": "./data/chroma_db"
+}
